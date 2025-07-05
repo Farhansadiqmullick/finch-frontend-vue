@@ -20,7 +20,6 @@ This document explains the Docker setup for the Buy-It frontend application.
 - **Small Base Images**: Uses Alpine Linux variants
 - **Layer Caching**: Separate `COPY package*.json` for dependency caching
 - **Minimal Final Image**: Only includes production artifacts
-- **Security**: Non-root user in production (handled by nginx image)
 
 ## Building the Image
 
