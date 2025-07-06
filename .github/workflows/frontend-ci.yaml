@@ -1,16 +1,8 @@
-name: Frontend CI/CD Pipeline
+name: Build, Push & Deploy
 
 on:
   push:
     branches: [ main ]
-    paths:
-      - '**/*.js'
-      - '**/*.vue'
-      - '**/*.css'
-      - 'package.json'
-      - 'package-lock.json'
-      - 'Dockerfile'
-      - 'nginx.conf'
   pull_request:
     branches: [ main ]
 
